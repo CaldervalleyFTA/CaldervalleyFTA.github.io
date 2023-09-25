@@ -33,6 +33,9 @@ body {font-family: "Lato", sans-serif}
   </div>
 </div>
 
+  <button onclick="document.getElementById('id01').style.display='block'" class= " w3-black w3-card w3-bottom w3-xlarge w3-center w3-button">UPCOMING GIG - PUNKS AGAINST HUNTS OCTOBER 9TH - TICKETS SELLING FAST</button>
+
+
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT US</a>
@@ -85,7 +88,7 @@ body {font-family: "Lato", sans-serif}
     </div>
   </div>
   
-  <!-- The Tour Section -->
+  <!-- The Events Section -->
   <div class="w3-black" id="events">
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
       <h2 class="w3-wide w3-center">EVENTS</h2>
@@ -96,16 +99,24 @@ body {font-family: "Lato", sans-serif}
           <div class="w3-container w3-white">
             <p><b>PUNKS AGAINST HUNTS</b></p>
             <p class="w3-opacity">7TH OCTOBER 23</p>
-            <p><B>AVAILABLE SOON</B></p>
-            <!-- <button class="w3-button w3-black w3-margin-bottom">BOOK NOW</button> -->
+            <a href="https://punkatthepig.bigcartel.com/product/punks-against-hunts-2"  target="_blank"><button class="w3-button w3-black w3-margin-bottom">BOOK NOW</button></a>
           </div>
         </div>
+		<div class="w3-third w3-margin-bottom w3-opacity-min">
+          <img src="resources\csp.png" alt="Paris" style="width:100%" class="">
+          <div class="w3-container w3-white">
+            <p><b>PUNKS AGAINST HUNTS</b></p>
+            <p class="w3-opacity">25TH FEBRUARTY 2023</p>
+            <button class="w3-button w3-black w3-margin-bottom">PREVIOUS EVENT</button>
+            <!-- <button class="w3-black  w3-margin-bottom w3-hover-black">PREVIOUS EVENT</button> -->
+          </div>
+        </div>	
         <div class="w3-third w3-margin-bottom w3-opacity-min">
           <img src="resources\pahp.png" alt="Paris" style="width:100%" class="">
           <div class="w3-container w3-white">
             <p><b>PUNKS AGAINST HUNTS</b></p>
-            <p class="w3-opacity">25TH February 2023</p>
-            <p><B>PREVIOUS EVENT</B></p>
+            <p class="w3-opacity">25TH FEBRUARTY 2023</p>
+            <button class="w3-button w3-black w3-margin-bottom">PREVIOUS EVENT</button>
             <!-- <button class="w3-black  w3-margin-bottom w3-hover-black">PREVIOUS EVENT</button> -->
           </div>
         </div>
@@ -124,27 +135,10 @@ body {font-family: "Lato", sans-serif}
     <h2 class="w3-wide w3-center">CONTACT</h2>
     <p class="w3-opacity w3-center"><i>Feel free to contact if you have any queries or concerns</i></p>
     <div class="w3-row w3-padding-32">
-      <div class="w3-col m6 w3-large w3-margin-bottom">
+      <div class="w3-center m6 w3-large w3-margin-bottom">
         <i class="fa fa-map-marker" style="width:30px"></i>Calder Valley<br>
         <i class="fa fa-envelope" style="width:30px"> </i> Email: caldervalleyfta@gmail.com<br>
       </div>
-      <div class="w3-col m6">
-        <form action="mailto: caldervalleyfta@gmail.com" target="_blank">
-          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-            </div>
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-            </div>
-          </div>
-          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
-        </form>
-      </div>
-    </div>
-  </div>
-  
 <!-- End Page Content -->
 </div>
 
@@ -155,6 +149,41 @@ body {font-family: "Lato", sans-serif}
   <a href='https://www.instagram.com/caldervalleyfta' target="_blank" class="w3-button w3-round-xxlarge"><i class="fa fa-instagram"></i></a>
   <a href="https://ko-fi.com/caldervalleyfta" target="_blank" class="w3-button w3-round-xxlarge"><i class="fa fa-coffee"></i></a>
 </footer>
+
+
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card w3-top-middle w3-animate-bottom">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id01').style.display='none'"
+      class="w3-button w3-display-topright w3-large">&times;</span>
+	  <header class="w3-container">
+      <b><h1 class="w3-center">PUNKS AGAINST HUNTS - OCTOBER 9TH</h1></b>
+	  </header>
+      <div>
+		<div class="w3-half"><p></p>
+		<img src="resources\modalpah.png" alt="PAH Poster Oct" style="width:77%" class="w3-padding w3-center">
+		</div>
+		<div class="w3-half w3-padding">
+		<h4>Join us for a night of hardcore and anarcho-punk at THE BLIND PIG, SOWERBY BRIDGE!</h4>
+		<h4>ICONS OF FILTH</h4>
+		<p>Welsh anarcho-punk band promoting animal rights, anarchism environmentalism, and veganism through their lyrics.</p>
+		<h4>DISTORT</h4>
+		<p>5 piece alternative punk machine from Leeds.</p>
+		<h4>GEVÄL</h4>
+		<p>D-beat hardcore punk rock n roll</p>
+		<h4>SPILLAGE</h4>
+		<p>Political hardcore from Manchester.</p>
+		</div>
+	  </div>
+	  <footer class="w3-container">
+	  <div class="w3-bar w3-padding">
+	      <a href="https://punkatthepig.bigcartel.com/product/punks-against-hunts-2" class=" w3-block w3-center w3-bar-item w3-black w3-button w3-padding-large " target="_blank">ALL PROFITS GOING TO CALDER VALLEY HUNT SABOTEURS AND CALDER VALLEY FTA FIND TICKETS</a>
+      </div>
+  </div>
+	  </footer>
+    </div>
+  </div>
+</div>
 
 <script>
 // Automatic Slideshow - change image every 4 seconds
