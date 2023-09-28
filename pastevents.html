@@ -22,8 +22,14 @@ body {font-family: "Lato", sans-serif}
     <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-padding-large">ABOUT US</a>
     <a href="#events" class="w3-bar-item w3-button w3-padding-large">EVENTS</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
-	<a href="https://ko-fi.com/caldervalleyfta" target="_blank" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SUPPORT US</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT US</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">SUPPORT US <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Become a Member</a>
+        <a href="#" class="w3-bar-item w3-button">Donations</a>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -34,7 +40,8 @@ body {font-family: "Lato", sans-serif}
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT US</a>
-  <a href="https://ko-fi.com/caldervalleyfta" target="_blank" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BECOME A MEMBER</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BECOME A MEMBER</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DONATIONS</a>
 </div>
 
 <!-- Page content -->
@@ -42,28 +49,21 @@ body {font-family: "Lato", sans-serif}
 
   <!-- Automatic Slideshow Images -->
   <div class="mySlides w3-display-container w3-center">
-    <img src="resources\pah3.png" style="width:100%">
+    <img src="resources\pah1.png" style="width:100%">
     <div class="w3-display-bottomright w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3 ><b class="w3-text-xxlarge">PUNKS AGAINST HUNTS</b></h3>
       <p>25TH FEBRUARY 2023</p>   
     </div>
   </div>
   <div class="mySlides w3-display-container w3-center">
-    <img src="resources\hsw.png" style="width:100%">
+    <img src="resources\pah2.png" style="width:100%">
     <div class="w3-display-bottomright w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3 ><b class="w3-text-xxlarge">HUNT SAB WORKSHOP</b></h3>
-      <p>8th SEPTEMBER 2023</p>   
+      <h3 ><b class="w3-text-xxlarge">PUNKS AGAINST HUNTS</b></h3>
+      <p>25TH FEBRUARY 2023</p>   
     </div>
   </div>
   <div class="mySlides w3-display-container w3-center">
-    <img src="resources\cs.png" style="width:100%">
-    <div class="w3-display-bottomright w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3 ><b class="w3-text-xxlarge">CULTURE SHOCK</b></h3>
-      <p>2ND SEPTEMBER 2023</p>   
-    </div>
-  </div>
-   <div class="mySlides w3-display-container w3-center">
-    <img src="resources\pah1.png" style="width:100%">
+    <img src="resources\pah3.png" style="width:100%">
     <div class="w3-display-bottomright w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3 ><b class="w3-text-xxlarge">PUNKS AGAINST HUNTS</b></h3>
       <p>25TH FEBRUARY 2023</p>   
@@ -95,46 +95,32 @@ body {font-family: "Lato", sans-serif}
       <h2 class="w3-wide w3-center">EVENTS</h2>
 
       <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-
-        <div class="w3-third w3-margin-bottom">
-          <img src="resources\badger.png" alt="PAH Poster Oct" style="width:100%" class="">
-          <div class="w3-container w3-white">
-            <p><b>Calderdale Badgers</b></p>
-			<p><b>Secret World Badger Rescue & Rehab</b></p>
-            <p class="w3-opacity">11TH AND 12TH OCTOBER 23</p>
-            <a href="https://www.eventbrite.com/e/secret-world-rescue-and-rehab-training-tickets-701615058527"  target="_blank"><button class="w3-button w3-black w3-margin-bottom">GO TO SITE</button></a>
-          </div>
-        </div>
-	  
-        <div class="w3-third w3-margin-bottom">
-          <img src="resources\seedbomb.png" alt="PAH Poster Oct" style="width:100%" class="">
-          <div class="w3-container w3-white">
-            <p><b>SEED BOMBING - Hebden</b></p>
-			<br></br>
-            <p class="w3-opacity">28TH OCTOBER 23</p>
-            <a href="https://www.instagram.com/caldervalleyfta/"  target="_blank"><button class="w3-button w3-black w3-margin-bottom">MESSAGE FOR INTEREST</button></a>
-          </div>
-        </div>
-
         <div class="w3-third w3-margin-bottom">
           <img src="resources\pahp2.png" alt="PAH Poster Oct" style="width:100%" class="">
           <div class="w3-container w3-white">
             <p><b>PUNKS AGAINST HUNTS</b></p>
-			<br></br>
             <p class="w3-opacity">7TH OCTOBER 23</p>
             <a href="https://punkatthepig.bigcartel.com/product/punks-against-hunts-2"  target="_blank"><button class="w3-button w3-black w3-margin-bottom">BOOK NOW</button></a>
           </div>
         </div>
-		<!-- PREVIOUS EVENTS TEMPLATE -->
-		<!-- <div class="w3-third w3-margin-bottom w3-opacity-min">
+		<div class="w3-third w3-margin-bottom w3-opacity-min">
           <img src="resources\csp.png" alt="Paris" style="width:100%" class="">
           <div class="w3-container w3-white">
-            <p><b>CULTURE SHOCK</b></p>
-            <p class="w3-opacity">2ND SEPTEMBER 23</p>
+            <p><b>PUNKS AGAINST HUNTS</b></p>
+            <p class="w3-opacity">25TH FEBRUARTY 2023</p>
             <button class="w3-button w3-black w3-margin-bottom">PREVIOUS EVENT</button>
-             <button class="w3-black  w3-margin-bottom w3-hover-black">PREVIOUS EVENT</button>
+            <!-- <button class="w3-black  w3-margin-bottom w3-hover-black">PREVIOUS EVENT</button> -->
           </div>
-        </div>	 -->
+        </div>	
+        <div class="w3-third w3-margin-bottom w3-opacity-min">
+          <img src="resources\pahp.png" alt="Paris" style="width:100%" class="">
+          <div class="w3-container w3-white">
+            <p><b>PUNKS AGAINST HUNTS</b></p>
+            <p class="w3-opacity">25TH FEBRUARTY 2023</p>
+            <button class="w3-button w3-black w3-margin-bottom">PREVIOUS EVENT</button>
+            <!-- <button class="w3-black  w3-margin-bottom w3-hover-black">PREVIOUS EVENT</button> -->
+          </div>
+        </div>
 
       </div>
     </div>
