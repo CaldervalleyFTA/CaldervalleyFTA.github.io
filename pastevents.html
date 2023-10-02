@@ -8,6 +8,48 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+
+<style>
+* {box-sizing: border-box}
+.mySlides, .mySlides1 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+</style>
+
 </style>
 </head>
 <body class="w3-light-grey">
@@ -56,7 +98,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
       <div class="w3-row">
 	    <div class="w3-col m8 s12">
-            <p><button class="w3-button w3-padding-large w3-white w3-border"><b>SEE GALLERY »</b></button></p>
+            <p><button onclick="document.getElementById('cs').style.display='block'"  class="w3-button w3-padding-large w3-white w3-border"><b>SEE GALLERY »</b></button></p>
         </div>
       </div>
     </div>
@@ -75,12 +117,14 @@ and is wrapped around the whole page content, except for the footer in this exam
         tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
       <div class="w3-row">
         <div class="w3-col m8 s12">
-          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>SEE GALLERY »</b></button></p>
+          <p><button onclick="document.getElementById('pah1').style.display='block'" class="w3-button w3-padding-large w3-white w3-border"><b>SEE GALLERY »</b></button></p>
         </div>
       </div>
     </div>
   </div>
   <hr>
+
+
 
 <!-- BLANK TEMPLATE
   <div class="w3-card-4 w3-margin w3-white">
@@ -104,6 +148,92 @@ and is wrapped around the whole page content, except for the footer in this exam
 <!-- END BLOG ENTRIES -->
 </div>
 
+<div id="cs" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container w3-black">
+		<div class="w3-padding-large w3-content w3-display-container">
+		<img class="mySlides" src="resourcesgallery\CS\1.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\2.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\3.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\4.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\5.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\6.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\7.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\8.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\9.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\10.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\11.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\12.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\13.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\14.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\15.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\16.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\17.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\18.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\19.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\20.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\21.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\22.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\23.jpg" style="width:100%">
+		<img class="mySlides" src="resourcesgallery\CS\24.jpg" style="width:100%">
+		<button class="w3-button w3-black w3-display-left" onclick="plusSlides(-1, 0)">&#10094;</button>
+		<button class="w3-button w3-black w3-display-right" onclick="plusSlides(1, 0)">&#10095;</button>
+    </div>
+	<span onclick="document.getElementById('cs').style.display='none'"
+      class="w3-padding w3-button w3-text-white w3-display-topright">&times;</span>
+  </div>
+</div>
+</div>
+
+<div id="pah1" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container w3-black">
+		<div class="w3-padding-large w3-content w3-display-container">
+		<img class="mySlides1" src="resourcesgallery\PAH1\1.jpg" style="width:100%">
+		<img class="mySlides1" src="resourcesgallery\PAH1\2.jpg" style="width:100%">
+		<img class="mySlides1" src="resourcesgallery\PAH1\3.jpg" style="width:100%">
+		<img class="mySlides1" src="resourcesgallery\PAH1\4.jpg" style="width:100%">
+		<img class="mySlides1" src="resourcesgallery\PAH1\5.jpg" style="width:100%">
+		<img class="mySlides1" src="resourcesgallery\PAH1\6.jpg" style="width:100%">
+		<img class="mySlides1" src="resourcesgallery\PAH1\7.jpg" style="width:100%">
+		<img class="mySlides1" src="resourcesgallery\PAH1\8.jpg" style="width:100%">
+		<img class="mySlides1" src="resourcesgallery\PAH1\9.jpg" style="width:100%">
+		<img class="mySlides1" src="resourcesgallery\PAH1\10.jpg" style="width:100%">
+		<img class="mySlides1" src="resourcesgallery\PAH1\11.jpg" style="width:100%">
+		<img class="mySlides1" src="resourcesgallery\PAH1\12.jpg" style="width:100%">
+		<img class="mySlides1" src="resourcesgallery\PAH1\13.jpg" style="width:100%">
+		<img class="mySlides1" src="resourcesgallery\PAH1\14.jpg" style="width:100%">
+		<button class="w3-button w3-black w3-display-left" onclick="plusSlides(-1, 1)">&#10094;</button>
+		<button class="w3-button w3-black w3-display-right" onclick="plusSlides(1, 1)">&#10095;</button>
+    </div>
+	<span onclick="document.getElementById('pah1').style.display='none'"
+      class="w3-padding w3-button w3-text-white w3-display-topright">&times;</span>
+  </div>
+</div>
+</div>
+
+<script>
+var slideIndex = [1,1];
+/* Class the members of each slideshow group with different CSS classes */
+var slideId = ["mySlides", "mySlides1"] 
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1} 
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  x[slideIndex[no]-1].style.display = "block"; 
+}
+</script>
 
 </body>
 </html>
